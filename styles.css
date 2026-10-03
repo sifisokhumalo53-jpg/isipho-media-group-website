@@ -1,0 +1,29 @@
+/* Isipho Media Group Corporate Styles */
+@import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
+
+.font-serif {
+    font-family: 'Montaga', 'Times New Roman', Georgia, serif;
+}
+
+body {
+    background-color: #f8fafc;
+    color: #1e293b;
+}
+
+/* Custom smooth transitions */
+.nav-link.active {
+    color: #0063DB;
+    border-bottom: 2px solid #0063DB;
+}
+
+/* Subtle card styling */
+.corporate-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    transition: all 0.2s ease-in-out;
+}
+
+.corporate-card:hover {
+    border-color: #cbd5e1;
+    box-shadow: 0 10px 25px -5px rgba(0, 99, 219, 0.05), 0 8px 10px -6px rgba(0, 99, 219, 0.05);
+}
